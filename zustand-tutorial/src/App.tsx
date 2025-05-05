@@ -1,6 +1,6 @@
-import { useEffect } from "react";
-import "./App.css";
-import { useCounterStore } from "./store";
+import { useEffect } from 'react';
+import './App.css';
+import { useCounterStore } from './store';
 
 const setCount = () => {
   useCounterStore.setState({ count: 1 });
